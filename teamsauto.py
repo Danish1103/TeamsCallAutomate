@@ -5,10 +5,8 @@ from pynput.keyboard import Controller
 from pynput.keyboard import Key
 import webbrowser as wb
 lst=[
-    ['https://teams.microsoft.com/l/meetup-join/19%3a30ae2a34196542428aa960aec7a95680%40thread.tacv2/1727247141559?context=%7b%22Tid%22%3a%22e24ac094-efd8-4a6b-98d5-a129b32a8c9a%22%2c%22Oid%22%3a%22b86d8394-7d7f-455e-b7ea-7416d0412e1f%22%7d','14:00','15:30']
-#input lecture stats in form of list ......
-# ["Link","start_time","end_time"]
-# give time in 24 hrs format...
+     ["Link to Teams meeting", "Start time (24-hour format)", "End time (24-hour format)"],
+    # ... add more lectures in the same format ...
 ]
 keyboard= Controller()
 
